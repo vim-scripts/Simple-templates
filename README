@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=982
+
+These are three very simple mappings that save me a lot of time...
+
+Just create a directory with templates (i.e. a latex article, a copyright notice, a function header,...).  Edit TEMPLATE_HOME in the script, and you'll be able to use the following commands:
+
+:TT c  --> print template TEMPLATE_HOME/c on top of file (template top)
+:TH f  --> print template TEMPLATE_HOME/f on current line (template here)
+:LST   --> lists contents of templates directory
+
+Hope you find it useful!
+
+
